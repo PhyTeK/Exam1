@@ -1,0 +1,131 @@
+Examination #1 IoT 22 Fredag 18 (9:00 - 11:30)
+==============================================
+
+Det finns 10 uppgifter.
+Fem godkända ger bettyg "G".
+Åtta ger betyg "VG".
+
+
+1) Skapa en mapp som heter "exam1" med kommando:
+
+   mkdir exam1
+
+2) Flytta dig i mappen "exam1" med kommando:
+
+   mv exam1
+
+3) Initialisera git med kommando:
+
+   git init
+
+3) Pull alla uppgifter från GitHub med kommando:
+
+   git pull https://github.com/PhyTeK/Exam1.git main
+
+4) Börja med att läsa filen README
+
+5) När du är klar med examinationen skriv följande kommando och Enter.
+
+   touch DONE
+
+6) Notera att alla program måste kompileras med rätt namn.	
+
+Lycka till!
+
+Uppgift 1:
+  Skriv ett program som heter "u1" som deklarerar ett heltal "i",
+  ett flytal "f" och en karaktär "c". Definiera/initialisera "i" till
+  10, "f" till 1.2345 och "c" till 'a'. 
+
+Uppgift 2:
+  Skriv ett program som heter "u2" som skriver ut följande utdata.
+
+  *
+  * *
+  * * *
+  * * * *
+
+Uppgift 3:
+  Skriv en program som heter "u3" där du talar om för C preprocessor
+  (CPP) att definiera MESSAGE till __DONE__ endast om MESSAGE inte
+  redan är definierad.
+
+Uppgift 4:
+  Skriv ett program som heter "u4" som deklarerar en heltalsvariabel
+  med namnet x och tilldela x = 5. Skriv nu ut dess minnesadress som
+  följande utdata
+
+  The address of x is: 0xXXXXXX
+  The value of x is: 5
+
+Uppgift 5:
+  Skriv ett program som hetter "u5". I programmet du skapar en struktur
+  som heter "Produkt" och innehåller de två följande fälten:
+  
+  namn (en sträng/string som kan ha 10 karaktärer inkluderad null karaktären '\0')
+  pris (en flytal/floating)
+
+Uppgift 6:
+  Skapa ett program som heter "u6" och som innehåller en enkel
+  struktur med namnet "Student" som innehåller följande medlemmar.
+
+  id (heltal/integer)
+  cgpa (flytal/floating)
+  namn (sträng/string)
+
+  * Skapa en instans av den strukturen med namnet "stud1".
+
+  * Initialisera medlem "id" av "stud1" till 101.  
+
+  * Medlem "cgpa" till 1.2345 
+
+  * Medlem "namn" till "Dennis Ritchie"
+
+  * Slutligen skriv ut alla medlemar av "stud1"
+  
+  OUTPUT:
+
+  namn: Dennis Ritchie
+  id: 101
+  cgpa: 1.2345
+
+Uppgift 7:
+  Skapa ett program som heter "u7". I koden ska du deklarerar två
+  strängar med namn "str1" och "str2".  "str1" ska vara initialiserad till
+  "Hello" och "str2" till "world!". Sedan ska du skriva ut på skärmen
+  "Hello world!" med hjälp av "str1" och "str2".
+
+Uppgift 8:
+  Skapa ett program som heter "u8" som innehåller en funktion som
+  heter "mult" som tar två integer som parametrar och som returnera
+  produkten av båda parameter.  Anropa funktionen "mult" i main med
+  följande parametrar 2 och 3 och mata ut resultat (6) på skärmen.
+
+Uppgift 9:
+  Skriv ett program som heter "u9" som öppnar en fil med namnet
+  "first100" i skrivläge och skriv 100 (heltal) i den filen, ett tal
+  per rad.
+
+  1
+  2
+  3
+  .
+  .
+  .
+  99
+  100
+
+Uppgift 10:
+  Skriv ett program som heter "u10" som ta en sträng av små bokstäver (genemer)
+  som input från användaren och skriv ut den stora versionen (versaler) av
+  bokstäverna. Programmet ska fungerar på alla bokstäver från a till z.
+
+  Så till exempel,
+
+  INPUT: hello
+
+  ger,
+  
+  OUTPUT: HELLO
+
+
